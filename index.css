@@ -1,0 +1,262 @@
+
+html{
+    background-image:radial-gradient(at -30% 30%,  rgb(249, 64, 131) 10%, rgb(250, 94, 86)50%, rgb(255, 152, 67));
+}
+
+body {
+    background-image: url(Images/my-background-lion.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+  
+}
+
+
+
+.container{
+    margin-top: 20px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-bottom: 30px;
+
+    border-bottom: 1px solid white;
+}
+
+header img {
+    height: 100%;
+}
+
+nav {
+    width: 480px;
+    display:flex;
+    justify-content:space-around;
+    
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+
+}
+
+.smallbutton .navbutton{
+    border:none;
+    background-color: white;
+    color:rgb(250, 94, 86);
+    font-size:1.2rem;
+    padding:20px 0;
+    width:175.7px;
+
+}
+
+.dropdown :last-child .navbutton{
+    border-radius: 0 0 5px 5px;
+}
+
+
+.bigbutton:hover .dropdown{
+    display:block;
+}
+
+
+
+.navbutton {
+    font-size:1.25rem;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    display: inline-block;
+    border: 1px solid;
+    color:rgb(255, 255, 255);
+    padding: 1rem 2rem;
+}
+
+.navbutton:hover{
+    border-color: rgb(206, 206, 206);
+    transition-duration: 0.2s
+}
+
+.dropdown .navbutton:hover{
+    background-color:rgb(230, 230, 230);
+}
+
+.dropdown .navbutton:active {
+    background-color:rgb(200, 200, 200);
+    transition-duration:0.01s;
+}
+
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    margin: 3rem 0rem;
+}
+
+
+
+.herobox1 {
+    font-size: 1.15rem;
+    line-height: 3rem;
+    
+    flex: 2;
+}
+
+main h1, main p {
+   margin-left: 4.5rem;
+   margin-right: 5rem;
+}
+
+main h1 {
+    font-size:3rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0rem;
+    font-family: 'Playfair Display', sans-serif;
+    display: inline-block;
+    text-shadow: 1px 0px 1px rgb(0, 0, 0);
+}
+
+main p {
+    line-height:1.8rem;
+    margin-bottom: 0.6rem;
+}
+
+.button {
+    font-family: "Playfair Display", serif;
+    display: inline-block;
+    margin-left: 72px;
+    margin-top: 16px;
+    font-size:1.15rem;
+    color:rgb(250, 85, 99);
+    background-color:white ;
+    padding: 0rem 1rem;
+    border-radius: 6px;
+    box-shadow: 0.5px 0.8px 2px black ;
+
+}
+
+.button:hover{
+    background-color:rgb(230, 230, 230);
+    transition-duration: 0.2s;
+}
+
+.button:active{
+    background-color:rgb(200, 200, 200);
+    transition-duration: 0.05s;
+}
+
+.herobox2 {
+    flex: 1;
+}
+
+main img {
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.cards div {
+    border-radius: 20px;
+}
+
+.cards a {
+    color:white;
+}
+
+.card1 {
+    background-position: bottom;
+    background-image: url(Images/image-background-card1.jpg);
+    background-size: cover;
+    min-height: 300px;
+    width: 31%;
+    
+}
+
+.card2 {
+    background-position: bottom;
+    background-image: url(Images/image-background-card2.jpg);
+    width: 31%;
+    background-size: cover;
+}
+
+
+.card3 {
+    background-position: bottom;
+    background-image: url(Images/image-background-card3.jpg);
+    width: 31%;
+    background-size: cover;
+}
+
+.card1, .card2, .card3 {
+    padding: 40px 20px 30px 20px;
+    box-sizing:border-box;
+    box-shadow: 5px 8px 10px black ;
+}
+
+.cards img{
+    height: 130px;
+    margin-bottom: 15px;
+}
+
+.cards h2{
+    font-size:2.3rem;
+    font-family:'Playfaif Display', serif;
+}
+
+.cards p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    line-height: 1.3rem;
+}
+
+
+section {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin:100px 0px;
+
+}
+
+.review {
+    box-sizing: border-box;
+    padding: 30px 50px;
+    border:1px solid white;
+    width:48%;
+    margin: 0px 0px 60px 0px;
+
+
+}
+
+.review :last-child{
+    font-size:1rem ;
+}
+
+.review:last-of-type{
+    opacity: 70%;
+}
+
+blockquote p {
+    margin: 1rem 0rem;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5rem;
+}
+
+
+
